@@ -1,0 +1,63 @@
+.container{
+    width: 95%;
+  
+    margin: 25px auto;
+    text-align: center;
+    background-color: rgb(220, 222, 224);
+    border: solid 1px rgb(48, 48, 48);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    line-height: 10px;
+    
+}
+.container2{
+    width: 50%;
+  height: 300px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(220, 222, 224);
+    border: solid 1px rgb(48, 48, 48);
+  
+    line-height: 10px;
+    
+}
+.movieContainer2{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+img{
+   width: 90%;
+  margin: 5px;
+}
+.row{
+    line-height: 2px;
+    text-align: center;
+    padding:4px
+}
+button{
+    width: 60%;
+    border-radius: 2px;
+    border: solid 1px rgb(91, 89, 89);
+ background-color: rgb(64, 63, 63);
+ color: whitesmoke;
+ margin: 25px;
+}
+.image{
+    width: 70%;
+    margin: 10px;
+}
+.star{
+    width:30px;
+    padding: 4px;
+}
+.rating{
+/* display: grid;
+grid-template-columns: 1fr 1fr;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    
+}
